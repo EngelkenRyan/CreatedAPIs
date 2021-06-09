@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Facts</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="header">
+    <h1>Cat Facts API</h1>
+    </div>
+    <div class="controls">
+        <form>
+            <div class="inputs">
+                <p>
+                    <label for="animal_type">Would you like fact(s) about cats, dogs, snails, or horses?</label>
+                    <select id="search" class="animal_type">
+                        <option value="Cat">Cats</option>
+                        <option value="Dog">Dogs</option>
+                        <option value="Horse">Horses</option>
+                        <option value="Snail">Snails</option>
+                    </select>
+                    <br>        
+                    <label for="num_facts">How many facts would you like to receive? Max of 500.</label>
+                    <input type="number" class="num_facts_input" id="num_facts">
+                </p>
+                </div>
+                <div class="buttons">
+                    <button class="generate">Generate</button>
+                    <button class="clear">Clear</button>
+                </div>
+        </form>
+    </div>
+    <div class="results">
+
+    </div>
+</div>
+    <script type="text/javascript" src="index.js"></script>   
+</body>
+</html>
